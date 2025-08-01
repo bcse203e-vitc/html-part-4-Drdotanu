@@ -1,0 +1,26 @@
+.box {
+  width: 400px;
+  font-family: Arial, sans-serif;
+}
+
+.box1 {
+  background-color: #d9f1ff;
+  border: 5px solid #1f75cb;
+  padding: 10px;
+  margin: 10px;
+}
+
+.box2 {
+  background-color: #fff0d9;
+  border: 2px dashed #e67300;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.box3 {
+  background-color: #dff0d8;
+  padding: 15px;
+  margin: 40px;
+  border: none;
+}
