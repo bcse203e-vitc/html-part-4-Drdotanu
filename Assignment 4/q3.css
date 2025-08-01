@@ -1,0 +1,36 @@
+
+#title {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: darkgreen;
+}
+
+.content {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.blog-post {
+  border: 2px solid green;
+  padding: 20px;
+  margin: 40px auto;
+  width: 600px;
+  background-color: #f9f9f9;
+}
+
+.read-more {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.read-more:hover {
+  background-color: #0056b3;
+}
