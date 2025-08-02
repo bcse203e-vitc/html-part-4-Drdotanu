@@ -1,0 +1,44 @@
+
+  .box {
+      width: 120px;
+      height: 60px;
+      color: white;
+      text-align: center;
+      line-height: 60px;
+      font-weight: bold;
+      font-family: sans-serif;
+    }
+
+    
+    .static-box {
+      background-color: dodgerblue;
+      position: static;
+    }
+
+    .fixed-box {
+      background-color: purple;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+    }
+    .relative-box {
+      background-color: darkorange;
+      position: relative;
+      top: 20px;
+      left: 40px;
+    }
+
+    .wrapper {
+      position: relative;
+      width: 80%;
+      height: 100px;
+      background-color: #eee;
+      margin-top: 50px;
+    }
+
+    .absolute-box {
+      background-color: mediumseagreen;
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+    }
