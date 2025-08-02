@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+.Open {
+  background-color: #28a745;
+}
+
+.Close {
+  background-color: #dc3545;
+}
+
+.Submit {
+  background-color: #007bff;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.btn:active {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2) inset;
+  transform: scale(0.98);
+}
