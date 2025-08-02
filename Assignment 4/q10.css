@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background: #f2f4f8;
+}
+
+.hero {
+  background: linear-gradient(to right, #7b2ff7, #f107a3);
+  color: #fff;
+  padding: 60px 20px;
+}
+
+h1 { font-size: 2.5em; margin: 0; }
+.hero p { font-size: 1.2em; }
+
+.projects, .contact {
+  padding: 40px 20px;
+  background: #fff;
+}
+
+h2 { font-size: 1.8em; margin-bottom: 20px; }
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.project-list img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.project-list img:hover {
+  transform: scale(1.05);
+}
+
+.contact-button {
+  display: inline-block;
+  background: #f107a3;
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact-button:hover {
+  background: #c00587;
+}
